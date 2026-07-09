@@ -1,0 +1,26 @@
+{
+  "name": "playwright_pom_project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "Single_Data" : "npx playwright test tests/ERPSingleData.spec.ts",
+    "Allure-Reports" : "npx allure serve allure-results",
+    "USing_JsonFile" : "npx playwright test tests/MultipleDataUsingJson.spec.ts",
+    "Using_ExcelFile" : "npx playwright test tests/MultipleDataUsingExcel.spec.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.61.1",
+    "@types/node": "^26.1.0",
+    "allure-commandline": "^2.43.0",
+    "allure-playwright": "^3.10.2",
+    "dotenv": "^17.4.2"
+  },
+  "dependencies": {
+    "xlsx": "^0.18.5"
+  }
+}

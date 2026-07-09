@@ -1,0 +1,50 @@
+{
+    "Suppliers" : [
+        {
+            "SupplierName" : "Vijaya",
+            "Address" : "Discovery Gardens",
+            "City" : "Dubai",
+            "Country" : "United Arab Emirates",
+            "ContactPerson" : "Naga",
+            "PhoneNumber" : "25544666",
+            "Email": "Ravi@gmail.com",
+            "MobileNumber" : "65588442",
+            "Notes" : "Supplier1 added"
+        },
+        {
+           "SupplierName" : "Lakshmi",
+            "Address" : "The Gardens",
+            "City" : "Dubai",
+            "Country" : "Arab Country",
+            "ContactPerson" : "Leela",
+            "PhoneNumber" : "9898988",
+            "Email": "sathya@gmail.com",
+            "MobileNumber" : "3587458",
+            "Notes" : "Supplier2 added"
+        }
+       ],
+       "Customers" : [
+        {
+            "CustomerName" : "NagaVijaya",
+            "Address" : "AE",
+            "City" : "Dubai",
+            "Country" : "UAE",
+            "ContactPerson" : "Narayana",
+            "PhoneNumber" : "8989897",
+            "Email": "narayan@gmail.com",
+            "MobileNumber" : "1475882",
+            "Notes" : "Customer1 added"
+        },
+        {
+            "CustomerName" : "Konda",
+            "Address" : "Alnahda",
+            "City" : "Dubai",
+            "Country" : "AE",
+            "ContactPerson" : "Pradeep",
+            "PhoneNumber" : "4587458",
+            "Email": "pradeep@gmail.com",
+            "MobileNumber" : "1235487",
+            "Notes" : "Customer2 added"
+        }
+       ]
+}
